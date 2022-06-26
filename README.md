@@ -30,9 +30,10 @@ Includes:
 _But what about your actual app?_
 
 Just edit the bloody thing, and stop asking so many questions
+
 To replace the `app_name` variable, you can use `sed`, for example:
 
 ```shell
-curl -o docker-compose.yml hhttps://raw.githubusercontent.com/whyimnobody/agnostic/master/web-dev-backend.yml
-sed -i 's/{{app_name}}/something_creative/' docker-compose.yml
+curl -o docker-compose.yml https://raw.githubusercontent.com/whyimnobody/agnostic/master/web-dev-backend.yml
+sed -i '' 's/{{app_name}}/something_creative/' docker-compose.yml
 ```
